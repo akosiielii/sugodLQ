@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    background-color: blanchedalmond;
+    color: white;
+    padding: 0 20px;
+    text-align: center;
+    height: 100px;
+}
+.navbar {
+    display:flex;
+    align-items: center;
+    padding: 5px;
+}
+nav {
+    flex: 1;
+    text-align: right;
+}
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+    
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 50px;
+}
+.logo {
+    font-size: 1.1rem;
+    color: var(--text-color);
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+}
+span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-left: 5px;
+}
+p {
+    display: inline-block;
+    font-family: sans-serif;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.logo-2 {
+    font-size: 1.1rem;
+    color: var(--text-color);
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.page {
+    background-color: cyan;
+    height: 200px;
+    padding: 3%;
+    color: black;
+    transition: cubic-bezier(1, 0, 0, 1);
+    
+}
+section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.intro {
+    text-align: justify;
+    margin-left: 350px;
+    font-size: 18px;
+    text-transform: none;
+}
+p {
+    display: inline-block;
+    font-family: sans-serif;
+}
+
+.main-page {
+    background-color: beige;
+    padding: 3%;
+    transition: transform 0.5s scale;
+}
+.gallery {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    transition: transform 0.5s ease-in-out;
+}
+.gallery:hover{
+    transform: scale(1.1);
+}
+.sugod-img {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-left: 10px;
+    height: auto;
+    transition: transform 0.5s ease; /* Add a transition effect */
+  }
+  
+  .sugod-img:hover {
+    transform: scale(1.2); /* Scale the image on hover */
+  }
+  .message {
+    width: 50%;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.brgy {
+    margin-bottom: 10px;
+    text-indent: 8px;
+    text-align: justify;
+    font-size: 20px;
+}
+.name {
+    text-align: center;
+    width: 300px;
+    border: 1px solid #12ebeb;
+    border-radius: 9px;
+    background-color: #12ebeb;
+    margin-left: 150px;
+    height: auto;
+    margin-bottom: 250px;
+    transition: transform 0.5s ease; /* Add a transition effect */
+}
+.name:hover{
+    transform: scale(1.2); /* Scale the image on hover */
+}
+
+
+
+/* features */ 
+.container {
+    background-color: antiquewhite;
+    padding: 8%;
+    transition: transform 0.5s scale;
+    height: 550px;
+}
+.start {
+    width: 50%;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.introduction {
+    margin-bottom: 10px;
+    text-indent: 8px;
+    text-align: justify;
+    font-size: 20px;
+}
+.p-sugod {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    transition: transform 0.5s ease-in-out;
+}
+.p-sugod:hover {
+    transform: scale(1.2); /* Scale the image on hover */
+}
+.mv {
+    background-color: #12ebeb;
+    height: 550px;
+    background-blend-mode: overlay;
+    background: linear-gradient(to bottom, #f6f1d3,  rgb(102, 245, 245))
+    
+}
+.try{
+    align-items: center;
+    margin-left: 550px;
+    height: 250px;
+}
+.mission {
+    font-size: 25px;
+    text-align: justify;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.vision {
+    font-size: 25px;
+    text-align: justify;
+    text-align: center;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/*footer*/
+.footer {
+    background-color: blanchedalmond;
+    color: white;
+    height: 100px;
+}
+.s-contact {
+    text-align: center;
+    color: #333;
+}
+.contact {
+    text-align: center;
+    color: #333;
+
+}
+.c-sugod {
+    text-align: center;
+}
